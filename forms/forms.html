@@ -8,7 +8,7 @@
 </head>
 <body>
     <p><h3>This is displaying the form controls</h3></p>
-    <form action="">
+    <form action="" method="post">
         <!--This is adding of a user name text field and the password field in the form-->
         <p>Username: 
         <input type="text" name="Username" size="15" maxlength="30" />
@@ -32,6 +32,36 @@
         </p>
         <hr/>
 
+        <!--Adding of the checkbox in the form-->
+        <p><h3>These are checkbox below</h3></p>
+        <P>Please select your favorite Cars below:</P>
+        <input type="checkbox" name="car" value="benz"/>Benz
+        <input type="checkbox" name="car" value="Volvo" />Volvo
+        <input type="checkbox" name="car" value="Jaguar"/>Jaguar
+        <input type="checkbox" name="car" value="bmw"/>BMW
+        <hr/>
+
+        <!--Drop down list in the form-->
+        <p>Please selct your car from the dropdown:</p>
+        <select name="cars" id="">
+            <option value="select">Select</option>
+            <option value="Benz">Benz</option>
+            <option value="Volvo">Volvo</option>
+            <option value="BMW">BMW</option>
+            <option value="Jaguar">Jaguar</option>
+        </select>
+        <!--You can also select multiple sections using the multiple = "multiple"-->
+        <hr/>
+        <p><h3>Upload your file here:</h3></p>
+        <input type="file" name="your-file" /><br/>
+        <input type="submit" value="Upload" />
+        <hr/>
+
+        <!--Adding of the submit botton-->
+        <p><h3>Upload/Subscribe to our mailing List:</h3></p>
+        <input type="text" name="email" />
+        <input type="submit" name="subscribe" value="subscribe">
+        <hr/>
     </form>
 </body>
 </html>
