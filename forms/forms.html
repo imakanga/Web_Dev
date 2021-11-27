@@ -9,13 +9,17 @@
 <body>
     <p><h3>This is displaying the form controls</h3></p>
     <form action="" method="post">
+
         <!--This is adding of a user name text field and the password field in the form-->
+        <fieldset><legend><b>Login</b></legend>
         <p>Username: 
-        <input type="text" name="Username" size="15" maxlength="30" />
+        <input type="text" name="Username" size="15" maxlength="30" required="required"/>
         </p>
         <p>Password: 
-        <input type="password" name="password" size="15" maxlength="30"></p> <hr/>
-        
+        <input type="password" name="password" size="15" maxlength="30" required="required"></p> <hr/>
+        <input type="submit" name="Submit" value="submit" />
+        </fieldset> 
+
         <!--This is textarea field for the radio buttons-->
         Comment Here: 
         <p>
