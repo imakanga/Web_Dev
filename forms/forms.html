@@ -7,12 +7,30 @@
     <title>Forms</title>
 </head>
 <body>
+    <p><h3>This is displaying the form controls</h3></p>
     <form action="">
+        <!--This is adding of a user name text field and the password field in the form-->
         <p>Username: 
         <input type="text" name="Username" size="15" maxlength="30" />
         </p>
         <p>Password: 
-        <input type="password" name="password" size="15" maxlength="30"></p>
+        <input type="password" name="password" size="15" maxlength="30"></p> <hr/>
+        
+        <!--This is textarea field for the radio buttons-->
+        Comment Here: 
+        <p>
+        <textarea name="comment" id="comment" cols="30" rows="10">Comment Here...... 
+        </textarea> <hr/>
+
+        <!--This is adding of the radio button-->
+        <h3>Radio button in a form</h3>
+        </p>
+        <p>Please select your fovurite genre:
+        <input type="radio" name="genre" value="Jazz">Jazz:
+        <input type="radio" name="genre" value="Pop">Pop:
+        <input type="radio" name="genre" value="R&B">R&B:
+        </p>
+        <hr/>
 
     </form>
 </body>
